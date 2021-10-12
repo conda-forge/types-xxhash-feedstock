@@ -1,5 +1,5 @@
 {% set name = "types-xxhash" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-xxhash-{{ version }}.tar.gz
-  sha256: e43ad7efb761ba14c0b60198a6b81d86b12af4eec4429ba517969eb3cd30f67d
+  sha256: 44290501c6e97953aa2add9bf3e10464ae8002ee9b602f0daea8394ab4c1e4b1
 
 build:
   number: 0
